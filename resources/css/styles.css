@@ -1,0 +1,133 @@
+* {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* main
+container where all content is display */
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+/* container-left
+... */
+#container-left {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 18%;
+    height: 100%;
+}
+
+/* let-side
+... */
+.let-side {
+    width: 100%;
+    height: 1/3;
+}
+
+/* let-side-1
+... */
+#let-side-1 {
+    background-color: teal;
+}
+
+/* let-side-2
+... */
+#let-side-2 {
+    background-color: chartreuse;
+}
+
+/* let-side-2
+... */
+#let-side-3 {
+    background-color: darkblue;
+}
+
+/* container-center
+container where the execution is displayed and the results printed */
+#container-center {
+    background-color: #ffffff ;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 67%;
+    height: 100%;
+}
+
+/* viewfinder
+container where screen and printer are displayed */
+#viewfinder {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+}
+
+/* printer
+container where execution results are displayed */
+#printer {
+    background-color: violet;
+    width: 20%;
+    height: 100%;
+}
+
+/* principal
+container where execution and mode system are displayed */
+#principal{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+}
+
+/* principal-screen
+container where the execution is displayed */
+#principal-screen {
+    background-color: chocolate;
+    width: 100%;
+    height: 80%;
+}
+
+/* mode
+container where the current mode of the system is displayed */
+#mode{
+    background-color: aqua;
+    width: 100%;
+    height: 20%;
+}
+
+/* upload-file
+container where files are uploaded */
+#upload-file {
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
+}
+
+/* data
+container where important values will be */
+#data {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+}
+
+/*  container-right 
+container where memory is displayed */
+#container-right {
+    background-color: blue;
+    width: 15%;
+    height: 100%;
+}
